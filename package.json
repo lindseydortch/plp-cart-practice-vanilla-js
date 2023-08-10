@@ -1,0 +1,17 @@
+{
+  "name": "plp-cart-practice-vanilla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass --watch sass/main.scss styles/style.css",
+    "devserver": "live-server",
+    "start": "npm run devserver & npm run watch:sass"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.65.1"
+  }
+}
